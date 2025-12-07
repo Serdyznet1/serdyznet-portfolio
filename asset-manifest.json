@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/serdyznet-portfolio/static/js/main.91252467.js",
+    "main.js": "/serdyznet-portfolio/static/js/main.d5ba5a30.js",
     "index.html": "/serdyznet-portfolio/index.html",
-    "main.91252467.js.map": "/serdyznet-portfolio/static/js/main.91252467.js.map"
+    "main.d5ba5a30.js.map": "/serdyznet-portfolio/static/js/main.d5ba5a30.js.map"
   },
   "entrypoints": [
-    "static/js/main.91252467.js"
+    "static/js/main.d5ba5a30.js"
   ]
 }
