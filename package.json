@@ -1,5 +1,5 @@
 {
-  "homepage": "https://serdyznet1.github.io/serdyznet-portfolio",
+  "homepage": "https://Serdyznet1.github.io/serdyznet-portfolio",
   "name": "serdyznet-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-intersection-observer": "^10.0.0",
+    "react-intersection-observer": "^10.0N.0",
     "react-paystack": "^6.0.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.3",

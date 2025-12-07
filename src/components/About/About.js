@@ -29,7 +29,7 @@ const About = () => {
       <AboutContainer>
         <AboutImageContainer $inView={inView}>
           <AboutImageGlow />
-          <AboutImage src="/serdyznetabout.jpg" alt="About Me" />
+          <AboutImage  src={process.env.PUBLIC_URL +"/serdyznetabout.jpg"} alt="About Me" />
         </AboutImageContainer>
         <AboutContent $inView={inView}>
           {/* Headline */}

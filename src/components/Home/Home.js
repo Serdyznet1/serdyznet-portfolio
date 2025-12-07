@@ -72,7 +72,7 @@ const Home = () => {
         
         <HomeImageContainer $inView={inView}>
           <ImageGlow />
-          <HomeImage src="/serdyznethome.jpg" alt="Isah Sadis Suleiman" />
+          <HomeImage src={process.env.PUBLIC_URL +"/serdyznethome.jpg"} alt="Isah Sadis Suleiman" />
           
           {/* --- ADDED: WhatsApp Button --- */}
           {/* Replace the number below with your actual WhatsApp number */}

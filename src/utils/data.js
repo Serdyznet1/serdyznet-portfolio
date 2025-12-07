@@ -70,12 +70,19 @@ export const skills = {
 // ... existing imports and other exports ...
 
 export const teamMembers = [
-  { name: 'SURAJ ABUBAKAR', role: 'Project Manager', image: '/member1.jpg' },
-  { name: 'EMMANUEL MANDONG', role: 'UI/UX Designer', image: '/member2.jpg' },
-  { name: 'KABIR AHMAD', role: 'Software Engineer', image: '/member3.jpg' },
-  { name: 'MUHAMMAD KABIR', role: 'Frontend Dev', image: '/member4.jpg' },
-  { name: 'MUHAMMAD JIBRIN', role: 'Backend Dev', image: '/member5.jpg' },
-  { name: 'ANAR HUSSAINI', role: 'FullStack Dev', image: '/member6.jpg' },
-  { name: 'IBRAHIM YAHAYA', role: 'AI/Data Specialist', image: '/member7.jpg' },
-  { name: 'ABDULLHAKIM FATIMA', role: 'Digital Marketer', image: '/member8.jpg' },
+  { name: 'SURAJ ABUBAKAR', role: 'Project Manager', image: process.env.PUBLIC_URL + "/member1.jpg"
+},
+  { name: 'EMMANUEL MANDONG', role: 'UI/UX Designer',  image: process.env.PUBLIC_URL + "/member2.jpg"
+ },
+  { name: 'KABIR AHMAD', role: 'Software Engineer', image: process.env.PUBLIC_URL + "/member3.jpg"
+ },
+  { name: 'MUHAMMAD KABIR', role: 'Frontend Dev', image: process.env.PUBLIC_URL + "/member4.jpg"
+ },
+  { name: 'MUHAMMAD JIBRIN', role: 'Backend Dev', image: process.env.PUBLIC_URL + "/member5.jpg"
+ },
+  { name: 'ANAR HUSSAINI', role: 'FullStack Dev', image: process.env.PUBLIC_URL + "/member6.jpg"
+ },
+  { name: 'IBRAHIM YAHAYA', role: 'AI/Data Specialist', image: process.env.PUBLIC_URL + "/member7.jpg"
+ },
+  { name: 'ABDULLHAKIM FATIMA', role: 'Digital Marketer', image: process.env.PUBLIC_URL + "/member8.jpg" },
 ];
