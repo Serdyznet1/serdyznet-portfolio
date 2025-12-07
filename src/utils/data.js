@@ -21,19 +21,19 @@ export const projects = [
     title: 'Serdyznet Telecom', 
     description: 'A full-stack website for telecommunication subscriptions.', 
     link: 'https://serdyznettelecom.com', 
-    image: '/telecoms.png' 
+    image: process.env.PUBLIC_URL + '/telecoms.png' 
   },
   { 
     title: 'Octapus.org', 
     description: 'A comprehensive educational website and learning platform.', 
     link: 'https://octapus.org', 
-    image: '/octapus.png' 
+    image: process.env.PUBLIC_URL +'/octapus.png' 
   },
   { 
     title: 'Corporate Branding', 
     description: 'Branding and design work for clients like Lamshefs Collection, Talamine Nig Ltd, and Octapus Team.', 
     link: '#', 
-    image: '/branding.png' 
+    image: process.env.PUBLIC_URL + '/branding.png' 
   },
 ];
 
